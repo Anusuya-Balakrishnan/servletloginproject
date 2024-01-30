@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>ServletPrograms</display-name>
+  <servlet>
+    <servlet-name>Hello program using servlet</servlet-name>
+    <servlet-class>BasicPrograms.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Hello program using servlet</servlet-name>
+    <url-pattern>/helloServletProgram</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>addServlet</servlet-name>
+    <servlet-class>RequestDispatcherExample.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addServlet</servlet-name>
+    <url-pattern>/addServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>squareServlet</servlet-name>
+    <servlet-class>RequestDispatcherExample.SquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>squareServlet</servlet-name>
+    <url-pattern>/squareServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServletExample</display-name>
+    <servlet-name>LoginServletExample</servlet-name>
+    <servlet-class>LoginServletExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServletExample</servlet-name>
+    <url-pattern>/LoginServletExample</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>signupServlet</display-name>
+    <servlet-name>signupServlet</servlet-name>
+    <servlet-class>signupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signupServlet</servlet-name>
+    <url-pattern>/signupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
